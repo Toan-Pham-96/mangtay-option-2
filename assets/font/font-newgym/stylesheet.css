@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedBoldItalic.woff2') format('woff2'),
+        url('GeorgeRoundedBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedItalic.woff2') format('woff2'),
+        url('GeorgeRoundedItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedLight.woff2') format('woff2'),
+        url('GeorgeRoundedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedRegular.woff2') format('woff2'),
+        url('GeorgeRoundedRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedBold.woff2') format('woff2'),
+        url('GeorgeRoundedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedBoldItalic.woff2') format('woff2'),
+        url('GeorgeRoundedBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedItalic.woff2') format('woff2'),
+        url('GeorgeRoundedItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedBold.woff2') format('woff2'),
+        url('GeorgeRoundedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedRegular.woff2') format('woff2'),
+        url('GeorgeRoundedRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedLightItalic.woff2') format('woff2'),
+        url('GeorgeRoundedLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedSemibold.woff2') format('woff2'),
+        url('GeorgeRoundedSemibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedSemibold.woff2') format('woff2'),
+        url('GeorgeRoundedSemibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedSemiboldItalic.woff2') format('woff2'),
+        url('GeorgeRoundedSemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedSemiboldItalic.woff2') format('woff2'),
+        url('GeorgeRoundedSemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedLightItalic.woff2') format('woff2'),
+        url('GeorgeRoundedLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedLight.woff2') format('woff2'),
+        url('GeorgeRoundedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

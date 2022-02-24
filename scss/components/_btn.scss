@@ -1,0 +1,154 @@
+
+.btn-exp{
+    display: inline-flex;
+    align-items: center;
+     min-height: 4rem;
+    a{
+        background: #fff;
+        padding: 1rem 2.5rem;
+        border-radius: 1px;
+        -webkit-border-radius: 1px;
+        -moz-border-radius: 1px;
+        -ms-border-radius: 1px;
+        -o-border-radius: 1px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        span
+{
+            transition: all 0.1s ease;
+            -webkit-transition: all 0.1s ease;
+            -moz-transition: all 0.1s ease;
+            -ms-transition: all 0.1s ease;
+            -o-transition: all 0.1s ease;
+}
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+            background: $c-orange;
+            color: #fff;
+        }
+    }
+}
+.btn-scroll{
+    display: inline-flex;
+    align-items: center;
+    min-height: 3rem;
+    a{
+        background: #fff;
+        padding: 10px 3rem;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+        text-decoration: none;
+        border: 1px solid $c-default;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        &:hover{
+            background: $c-orange;
+            border-color: $c-orange;
+            span{
+                color: #fff;
+                letter-spacing: 0.2rem;
+            }
+        }
+        span{
+            color: $c-default;
+            transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+        }
+    }
+    @include Responsive (PHONE){
+        min-height: 2rem;
+        a{
+            padding: 5px 2rem;
+        }
+    }
+}
+.see-more{
+    display: inline-flex;
+    align-items: center;
+    a{
+        text-decoration: none;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        position: relative;
+        &:after{
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width:  calc(100% + 1rem);
+            transform: translate(-50%, -50%);
+            height: 0;
+            background: $c-green;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            z-index: 1;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+}
+               
+        span{
+            position: relative;
+            transition: all 0.1s ease;
+            -webkit-transition: all 0.1s ease;
+            -moz-transition: all 0.1s ease;
+            -ms-transition: all 0.1s ease;
+            -o-transition: all 0.1s ease;
+            color: $c-green;
+            z-index: 10;
+        }
+        &:hover{
+            &:after{
+                color: #fff;
+                height: calc(100% + 1rem);
+            }
+            span{
+                color: #fff;
+                letter-spacing: 0.2rem;
+            }
+        }
+       
+    }
+
+}
+
+.btn-modal{
+    background: #fff;
+    font-size: 1.4rem;
+    padding: 1rem 2.5rem;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    &:hover
+{
+      background: $c-orange;
+      box-shadow: rgba(0, 0, 0, 0.8) 0px 4px 12px;
+      color: #fff;
+    }
+}

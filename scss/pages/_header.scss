@@ -1,0 +1,90 @@
+.heading-main {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background: transparent;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  .heading-wrapper{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heading-logo{
+    img{
+      max-width: 10rem;
+      transition: all 0.4s ease;
+      -webkit-transition: all 0.4s ease;
+      -moz-transition: all 0.4s ease;
+      -ms-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+    }
+}
+  .heading-wrapper {
+    background: transparent;
+    ul{
+      display: flex;
+      li:not(:last-child){
+        margin-right: 3rem;
+      }
+      li{
+        a{
+          font-size: 2rem;
+          font-weight: bold;
+          transition: all 0.4s ease;
+          -webkit-transition: all 0.4s ease;
+          -moz-transition: all 0.4s ease;
+          -ms-transition: all 0.4s ease;
+          -o-transition: all 0.4s ease;
+        }
+      }
+      ul{
+        li{
+          a{
+            span{
+              display: inline-block;
+              position: relative;
+              &::after{
+                position: absolute;
+                bottom: -2px;
+                left: 0;
+                content: '';
+                width: 0;
+                height: 3px;
+                background: $c-default;
+                transition: all 0.3s ease;
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                -ms-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+              }
+            }
+            &:hover{
+              color: $c-default;
+               span::after{
+                width: 100%;
+              }
+            }
+          }
+          
+        }
+      }
+    }
+  }
+}
+
+.sticky {
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  .heading-logo{
+    img{
+     padding: 1rem;
+      max-width: 10rem;
+    }
+  }
+}

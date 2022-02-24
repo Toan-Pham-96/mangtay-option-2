@@ -1,0 +1,175 @@
+
+
+.site-banner-function{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;   
+    bottom: 0;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+        display: inline-block;
+    }
+    @include Responsive(PHONE){
+        position: static;
+    }
+}
+
+.site-function{
+    &__wrapper{
+        .nav{
+            justify-content: center;
+            margin-bottom: 5vh;
+            @include Responsive(IPADPRO){
+                margin-bottom: 3rem;
+              }
+            li{
+                padding: 1rem 1.8rem;
+                margin: 5px 1.8rem;
+                @include Responsive(IPAD){
+                    padding: 5px 5px;
+                    margin: 5px 5px;
+                  }
+                
+                a{
+                    transition: 0.3s ease;
+                    -webkit-transition: 0.3s ease;
+                    -moz-transition: 0.3s ease;
+                    -ms-transition: 0.3s ease;
+                    -o-transition: 0.3s ease;
+                    &.active{
+                        color: $c-orange;
+                        svg{
+                            fill: $c-orange;
+                        }
+                    }
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    svg{
+                        height: 2.2rem;
+                        transition: 0.3s ease;
+                        -webkit-transition: 0.3s ease;
+                        -moz-transition: 0.3s ease;
+                        -ms-transition: 0.3s ease;
+                        -o-transition: 0.3s ease;
+                        }
+                    span{
+                        margin-top: 5px;
+                        display: inline-block;
+                    }
+                    &:hover{
+                        color: $c-orange;
+                        svg{
+                            fill: $c-orange;
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .tab-content{
+            .tab-pane{
+                figure{
+                    margin: 0;
+                }
+                .tab-item{
+                    padding: 3vw;
+                    .fm-heading-3{
+                        font-size: 3.2rem;
+                    }
+                    p{
+                        font-size: 1.6rem;
+                        line-height: 1.6;
+                    }
+                    @include Responsive(PHONE){
+                        margin-top: 1.2rem;
+                        .fm-heading-3{
+                            text-align: center;
+                        }
+                        p{
+                            text-align: center;
+                        }
+                      }
+                }
+            }
+        }
+    }
+}
+//SITE TESTIMONIAL
+
+.site-testimonial{
+    &__wrapper{
+        figure{
+            margin-bottom: 0;
+        }
+    }
+    .testimonial-item{
+        padding: 0 6vw;
+        q{
+            font-size: 24px;
+        }
+        @include Responsive(IPAD){
+            padding: 0 1rem;
+            text-align: center;
+            q{
+                display: inline-block;
+                font-size: 16px;
+               
+                
+            }
+          }
+          @include Responsive(PHONE){
+            padding: 3rem 1rem;
+           
+          }
+        .testimonial-author{
+            cite{
+                font-style: normal;
+            }
+            img{
+                max-height: 6rem;
+                margin-top: 8px;
+            }
+            @include Responsive(IPAD){
+                img{
+                    max-height: 4rem;
+                
+                }
+              }
+        }
+    }
+
+}
+
+//SITE BOX
+.site-box{
+    &__wrapper{
+      
+        .box-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 2.4rem;
+            svg{
+                max-height: 4.2rem;
+                margin-bottom: 2rem;
+                fill: $c-default;
+            }
+            p{
+                margin-top: 1rem;
+                font-size: 16px;
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.wrapper-body{
+    overflow: hidden;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: $font-primary;
+    font-size: 1.4rem;
+    color: $c-primary;
+    font-weight: 300;
+    position: relative;
+    @include Responsive(PHONE){
+        font-size: 1.2rem;
+    }
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    li{
+        a{
+            text-decoration: none;
+        }
+       
+    }
+}
+

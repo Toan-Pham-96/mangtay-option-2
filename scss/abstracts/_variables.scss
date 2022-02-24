@@ -1,0 +1,313 @@
+//COLOR TU PHUONG
+$c-font: #989898;
+$c-green-down: #4E7A6C;
+$c-green-up: #00473C;
+$c-black: #333333;
+$c-pink: #f91e1e;
+$c-grey-up: #F8F8F8;
+$c-grey-upper: #E6E6E6;
+$c-white: #fff;
+
+
+//THE NEW GYM
+$c-grey: #eff3f7;
+$c-green: rgb(52, 195, 143);
+$c-blue: #2a3042;
+$c-orange: rgb(241, 180, 76);
+$c-red: red; 
+$c-default: #487e3b;
+
+//AL
+
+$c-active: #C4A053;
+$c-primary: #171717;
+
+
+
+.c-primary{
+    color: $c-primary;
+}
+.c-default{
+    color: $c-default;
+}
+.c-active{
+    color: $c-active;
+}
+.c-white{
+    color: $c-white;
+}
+.c-blue{
+    color: $c-blue;
+}
+.c-black{
+    color: $c-black;
+}
+
+.c-orange{
+    color: $c-orange;
+}
+.c-font{
+    color: $c-font;
+}
+.c-green{
+    color: $c-green;
+}
+.c-green-down{
+    color: $c-green-down;
+}
+.c-green-up{
+    color: $c-green-up;
+}
+.c-pink{
+    color: $c-pink;
+}
+.c-grey{
+    color: $c-grey;
+}
+.c-red{
+    color: $c-red;
+}
+//BACKGROUND
+
+.bg-red{
+    background: $c-red;
+}
+.bg-black{
+    background-color: $c-black;
+}
+.bg-orange{
+    background-color: $c-orange;
+}
+.bg-font{
+    background-color: $c-font;
+}
+
+.bg-green{
+    background-color: $c-green;
+}
+.bg-green-down{
+    background-color: $c-green-down;
+}
+.bg-green-up{
+    background-color: $c-green-up;
+}
+.bg-pink{
+    background-color: $c-pink;
+}
+.bg-grey{
+    background-color: $c-grey;
+}
+.bg-grey-up{
+    background-color: $c-grey-up;
+}
+
+.bg-blue{
+    background-color: $c-blue;
+}
+//FONT-SIZE
+
+.fs-10{
+    font-size: 10px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-26{
+    font-size: 26px;
+}
+.fs-28{
+    font-size: 28px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-34{
+    font-size: 34px;
+}
+.fs-36{
+    font-size: 36px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-44{
+    font-size: 44px;
+}
+.fs-48{
+    font-size: 48px;
+}
+.fs-54{
+    font-size: 54px;
+}
+.fs-60{
+    font-size: 60px;
+}
+.fs-75{
+    font-size: 75px;
+}
+//FONT SIZE
+
+
+
+
+@include Responsive(IPAD){
+    .fs-16{
+        font-size: 14px;
+    }
+    .fs-18{
+        font-size: 16px;
+    }
+    .fs-24{
+        font-size: 18px;
+    }
+    .fs-26{
+        font-size: 20px;
+    }
+    .fs-28{
+        font-size: 24px;
+    }
+    .fs-32{
+        font-size: 24px;
+    }
+    .fs-30{
+        font-size: 24px;
+    }
+    .fs-34{
+        font-size: 24px;
+    }
+    .fs-36{
+        font-size: 24px;
+    }
+    .fs-40{
+        font-size: 24px;
+    }
+    .fs-44{
+        font-size: 24px;
+    }
+    .fs-48{
+        font-size: 24px;
+    }
+    .fs-54{
+        font-size: 24px;
+    }
+    .fs-60{
+        font-size: 24px;
+    }
+    .fs-75{
+        font-size: 24px;
+    }
+
+}
+@include Responsive(PHONE) {
+    .fs-16{
+        font-size: 14px;
+    }
+    .fs-18{
+        font-size: 16px;
+    }
+    .fs-24{  
+        font-size: 18px;
+    }
+    .fs-26{
+        font-size: 20px;
+    }
+    .fs-28{
+        font-size: 24px;
+    }
+    .fs-32{
+        font-size: 24px;
+    }
+    .fs-30{
+        font-size: 18px;
+    }
+    .fs-34{
+        font-size: 24px;
+    }
+    .fs-36{
+        font-size: 24px;
+    }
+    .fs-40{
+        font-size: 24px;
+    }
+    .fs-44{
+        font-size: 24px;
+    }
+    .fs-48{
+        font-size: 24px;
+    }
+    .fs-54{
+        font-size: 24px;
+    }
+    .fs-60{
+        font-size: 24px;
+    }
+    .fs-75{
+        font-size: 24px;
+    }
+}
+
+//FONT-FAMILY
+
+// font-family: 'George Rounded';
+$font-primary: 'Manrope', sans-serif;
+$font-default: 'Playfair Display', serif;
+$font-awesome: "FontAwesome";
+
+.fm-heading-1{
+    font-size: 6rem;
+    font-family: $font-default;
+    font-weight: normal;
+    @include Responsive(IPADPRO){
+        font-size: 5.6rem;
+    }
+    @include Responsive(PHONE){
+        font-size: 3.4rem;
+    }
+}
+.fm-heading-2{
+    font-size: 2.8rem;
+    font-family: $font-default;
+    line-height: 4.4rem;
+    font-weight: normal;
+    @include Responsive(PHONE){
+        font-size: 2.8rem;
+        line-height: 1;
+    }
+}
+.fm-heading-3{
+    font-size: 1.8rem;
+    font-family: $font-default;
+    line-height: 1;
+    font-weight: normal;
+}
+.fm-heading-4{
+    font-size: 1.6rem;
+    font-family: $font-default;
+    line-height: 1;
+    font-weight: normal;
+}
+.fm-heading-5{
+    font-size: 1.4rem;
+    font-family: $font-default;
+    line-height: 1;
+    font-weight: normal;
+
+}

@@ -1,0 +1,7 @@
+a {
+    color: $c-black;
+    &:hover {
+        text-decoration: none;
+        color: $c-orange;
+    }
+}

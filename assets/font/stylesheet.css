@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'SFU Eurostile';
+    src: url('SFUEurostileBoldExtendedTwo.eot');
+    src: url('SFUEurostileBoldExtendedTwo.eot?#iefix') format('embedded-opentype'),
+        url('SFUEurostileBoldExtendedTwo.woff2') format('woff2'),
+        url('SFUEurostileBoldExtendedTwo.woff') format('woff'),
+        url('SFUEurostileBoldExtendedTwo.ttf') format('truetype'),
+        url('SFUEurostileBoldExtendedTwo.svg#SFUEurostileBoldExtendedTwo') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU Eurostile';
+    src: url('SFUEurostileBold.eot');
+    src: url('SFUEurostileBold.eot?#iefix') format('embedded-opentype'),
+        url('SFUEurostileBold.woff2') format('woff2'),
+        url('SFUEurostileBold.woff') format('woff'),
+        url('SFUEurostileBold.ttf') format('truetype'),
+        url('SFUEurostileBold.svg#SFUEurostileBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU Eurostile';
+    src: url('SFUEurostileBoldCondensed.eot');
+    src: url('SFUEurostileBoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('SFUEurostileBoldCondensed.woff2') format('woff2'),
+        url('SFUEurostileBoldCondensed.woff') format('woff'),
+        url('SFUEurostileBoldCondensed.ttf') format('truetype'),
+        url('SFUEurostileBoldCondensed.svg#SFUEurostileBoldCondensed') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU Eurostile';
+    src: url('SFUEurostileBoldOblique.eot');
+    src: url('SFUEurostileBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('SFUEurostileBoldOblique.woff2') format('woff2'),
+        url('SFUEurostileBoldOblique.woff') format('woff'),
+        url('SFUEurostileBoldOblique.ttf') format('truetype'),
+        url('SFUEurostileBoldOblique.svg#SFUEurostileBoldOblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU Eurostile';
+    src: url('SFUEurostileCondensed.eot');
+    src: url('SFUEurostileCondensed.eot?#iefix') format('embedded-opentype'),
+        url('SFUEurostileCondensed.woff2') format('woff2'),
+        url('SFUEurostileCondensed.woff') format('woff'),
+        url('SFUEurostileCondensed.ttf') format('truetype'),
+        url('SFUEurostileCondensed.svg#SFUEurostileCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU Eurostile';
+    src: url('SFUEurostileCondensed_1.eot');
+    src: url('SFUEurostileCondensed_1.eot?#iefix') format('embedded-opentype'),
+        url('SFUEurostileCondensed_1.woff2') format('woff2'),
+        url('SFUEurostileCondensed_1.woff') format('woff'),
+        url('SFUEurostileCondensed_1.ttf') format('truetype'),
+        url('SFUEurostileCondensed_1.svg#SFUEurostileCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU Eurostile';
+    src: url('SFUEurostileDemi.eot');
+    src: url('SFUEurostileDemi.eot?#iefix') format('embedded-opentype'),
+        url('SFUEurostileDemi.woff2') format('woff2'),
+        url('SFUEurostileDemi.woff') format('woff'),
+        url('SFUEurostileDemi.ttf') format('truetype'),
+        url('SFUEurostileDemi.svg#SFUEurostileDemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU Eurostile';
+    src: url('SFUEurostileExtendedTwo.eot');
+    src: url('SFUEurostileExtendedTwo.eot?#iefix') format('embedded-opentype'),
+        url('SFUEurostileExtendedTwo.woff2') format('woff2'),
+        url('SFUEurostileExtendedTwo.woff') format('woff'),
+        url('SFUEurostileExtendedTwo.ttf') format('truetype'),
+        url('SFUEurostileExtendedTwo.svg#SFUEurostileExtendedTwo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU Eurostile';
+    src: url('SFUEurostileDemiOblique.eot');
+    src: url('SFUEurostileDemiOblique.eot?#iefix') format('embedded-opentype'),
+        url('SFUEurostileDemiOblique.woff2') format('woff2'),
+        url('SFUEurostileDemiOblique.woff') format('woff'),
+        url('SFUEurostileDemiOblique.ttf') format('truetype'),
+        url('SFUEurostileDemiOblique.svg#SFUEurostileDemiOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU Eurostile';
+    src: url('SFUEurostile.eot');
+    src: url('SFUEurostile.eot?#iefix') format('embedded-opentype'),
+        url('SFUEurostile.woff2') format('woff2'),
+        url('SFUEurostile.woff') format('woff'),
+        url('SFUEurostile.ttf') format('truetype'),
+        url('SFUEurostile.svg#SFUEurostile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU Eurostile';
+    src: url('SFUEurostileOblique.eot');
+    src: url('SFUEurostileOblique.eot?#iefix') format('embedded-opentype'),
+        url('SFUEurostileOblique.woff2') format('woff2'),
+        url('SFUEurostileOblique.woff') format('woff'),
+        url('SFUEurostileOblique.ttf') format('truetype'),
+        url('SFUEurostileOblique.svg#SFUEurostileOblique') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
