@@ -22,57 +22,52 @@
       -o-transition: all 0.4s ease;
     }
 }
-  .heading-wrapper {
-    background: transparent;
-    ul{
-      display: flex;
-      li:not(:last-child){
-        margin-right: 3rem;
+ul{
+  display: flex;
+  li:not(:last-child){
+    margin-right: 3rem;
+  }
+  li{
+    a{
+      font-size: 1.6rem;
+      font-weight: bold;
+      transition: all 0.4s ease;
+      -webkit-transition: all 0.4s ease;
+      -moz-transition: all 0.4s ease;
+      -ms-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+    }
+    span{
+      display: inline-block;
+      position: relative;
+      color: #000;
+      &::after{
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        content: '';
+        width: 0;
+        height: 3px;
+        background: $c-default;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
       }
-      li{
-        a{
-          font-size: 2rem;
-          font-weight: bold;
-          transition: all 0.4s ease;
-          -webkit-transition: all 0.4s ease;
-          -moz-transition: all 0.4s ease;
-          -ms-transition: all 0.4s ease;
-          -o-transition: all 0.4s ease;
-        }
+    }
+    &:hover{
+      color: $c-default;
+      span{
+        color: $c-default;
       }
-      ul{
-        li{
-          a{
-            span{
-              display: inline-block;
-              position: relative;
-              &::after{
-                position: absolute;
-                bottom: -2px;
-                left: 0;
-                content: '';
-                width: 0;
-                height: 3px;
-                background: $c-default;
-                transition: all 0.3s ease;
-                -webkit-transition: all 0.3s ease;
-                -moz-transition: all 0.3s ease;
-                -ms-transition: all 0.3s ease;
-                -o-transition: all 0.3s ease;
-              }
-            }
-            &:hover{
-              color: $c-default;
-               span::after{
-                width: 100%;
-              }
-            }
-          }
-          
-        }
+       span::after{
+        width: 100%;
       }
     }
   }
+ 
+}
 }
 
 .sticky {
@@ -81,10 +76,10 @@
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
+  box-shadow: rgba(33, 35, 38, 0.2) 0px 10px 10px -10px;
   .heading-logo{
     img{
-     padding: 1rem;
-      max-width: 10rem;
+      max-width: 8rem;
     }
   }
 }

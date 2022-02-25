@@ -58,6 +58,25 @@
 
 }
 
+.down-infinite{
+  animation: UpDown 1s linear infinite;
+  position: absolute;
+  left: 50%;
+  bottom: -4rem;
+  font-size: 3rem;
+  cursor: pointer;
+  color: #715c3f;
+  transform: translate(-50%, -100%) ;
+  -webkit-transform: translate(-50%, -100%) ;
+  -moz-transform: translate(-50%, -100%) ;
+  -ms-transform: translate(-50%, -100%) ;
+  -o-transform: translate(-50%, -100%) ;
+    a
+{
+    color: $c-default;
+  }
+}
+
 //LINE
 .line-wrapper{
   overflow: hidden;

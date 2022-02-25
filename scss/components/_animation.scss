@@ -134,3 +134,15 @@
         0% { left: 2000px;}
        100% { left: -2000px;}
     }
+
+    @keyframes UpDown {
+        0% {
+          bottom: 0;
+        }
+        50% {
+          bottom: .5em;
+        }
+        100% {
+          bottom: 0;
+        }
+      }
