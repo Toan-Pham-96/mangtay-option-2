@@ -90,18 +90,18 @@
   background-repeat: repeat-x;
   // animation: animatedImage 3s linear infinite;
   // -webkit-animation: animatedImage 3s linear infinite;
+  @include Responsive (PHONE){
+    display: none;
+  }
 }
 
 .section-about{
-  padding: 6rem 0;
-  .about-img{
-    figure{
-      position: absolute;
-    }
-  }
   .about-content{
     padding: 8rem 2.4rem;
     background: $c-default;
+    @include Responsive (PHONE){
+      padding: 4rem 1.6rem;
+    }
     &__inner{
      color: #fff;
     }
@@ -283,6 +283,9 @@
         color: #fff;
         text-align: justify;
       }
+      @include Responsive (PHONE){
+        padding: 2rem 1.6rem;
+      }
     }
   }
 
@@ -312,6 +315,12 @@
     margin: 0 auto;
     padding: 2rem 0;
     text-align: center;
+    @include Responsive (IPAD){
+      width: 80%;
+    }
+    @include Responsive (PHONE){
+      width: 100%;
+    }
   }
 }
 
@@ -328,6 +337,9 @@
       p{
         text-align: justify;
       }
+      @include Responsive (PHONE){
+       margin-bottom: 1.6rem
+      }
     }
   }
 }
@@ -343,6 +355,12 @@
       .conculation-video{
         margin-top: 3rem;
 
+      }
+      @include Responsive (IPAD){
+        width: 80%;
+      }
+      @include Responsive (PHONE){
+        width: 100%;
       }
     }
     .play-cover{

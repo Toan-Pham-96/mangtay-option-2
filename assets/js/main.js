@@ -13,6 +13,20 @@ $(document).ready(function() {
   //   parents.prepend(a)
   // });
 
+  $(".heading-nav a,.heading-nav").click(function(e){
+    $('.heading-nav,.heading-burger').removeClass('act');
+  })
+   	// menu click event
+	$('.heading-burger').click(function() {
+		$(this).toggleClass('act');
+			if($(this).hasClass('act')) {
+				$('.heading-nav').addClass('act');
+			}
+			else {
+				$('.heading-nav').removeClass('act');
+			}
+	});
+
 setTimeout(()=>{
   const lngNav = $(".nav-language ul")
   const lngKey = window.location.hash.replace('#','')
