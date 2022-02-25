@@ -1131,6 +1131,26 @@ ul {
   position: relative;
   margin-top: 10vh; }
 
+#more, #more2 {
+  display: none; }
+
+#myBtn, #myBtn2 {
+  background: transparent;
+  color: #fff;
+  border: none;
+  position: relative;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  font-weight: bold; }
+  #myBtn:hover, #myBtn2:hover {
+    background: #fff;
+    color: #487e3b; }
+
 .site-banner {
   width: 100vw;
   position: relative; }
